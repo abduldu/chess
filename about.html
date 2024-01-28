@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChezzMate - About</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color:#fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.about {
+    background-color: #333;
+    padding: 50px 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+/* Media Queries */
+@media screen and (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+    form {
+        max-width: 90%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>ChezzMate</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="about">
+        <div class="container">
+            <h2>About ChezzMate</h2>
+            <p>ChezzMate is a revolutionary chess platform that brings players from all around the world together to compete, learn, and have fun.</p>
+            <p>Our mission is to provide a seamless and enjoyable experience for both casual players and serious competitors alike.</p>
+            <p>Join our community today and discover the excitement of chess like never before!</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 ChezzMate. All rights reserved.</p>
+    </footer>
+</body>
+</html>
